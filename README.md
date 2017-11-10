@@ -264,7 +264,56 @@ svg.append("g")
     .call(d3.axisLeft(y));
 ```
 
-9. Created a function that updates the existing bar chart using given data, accompanied by an index number (see step ...). This function is built upon the code that generates the original chart, and thus contains code from the [original example][bar chart] by [Mike Bostock][Bostock]:
+9. Added code that select button elements in `index.html` and stored them in variables:
+
+```javascript
+var next =  document.querySelector(".next");
+var prev =  document.querySelector(".prev");
+```
+
+10. Created functions that define a global var `storyIndex` and call the `updateBarChart` function. This way the user can click trough the charts. See code below: 
+
+```javascript
+function stepNext() {
+
+  // if `storyIndex < 5` add `1` to `storyIndex` and run function `updateBarChart`
+  if(storyIndex < 5){
+    storyIndex++;
+    updateBarChart(datasets[storyIndex - 1], storyIndex);
+  }
+
+  // if `storyIndex == 2`, remove class `inactive` from element `prev`
+  if(storyIndex == 2) {
+    prev.classList.remove("inactive");
+  }
+
+  // if `storyIndex == 5`, add class `inactive` to element `next`
+  if(storyIndex == 5) {
+    next.classList.add("inactive");
+  }
+}
+
+function stepPrev() {
+
+  // if `storyIndex < 5` add `1` to `storyIndex` and run function `updateBarChart`
+  if(storyIndex > 1){
+    storyIndex--;
+    updateBarChart(datasets[storyIndex - 1], storyIndex);
+  }
+
+  // if `storyIndex == 4`, remove class `inactive` from element `next`
+  if(storyIndex == 4) {
+    next.classList.remove("inactive");
+  }
+
+  // if `storyIndex == 1`, add class `inactive` to element `prev`
+  if(storyIndex == 1) {
+    prev.classList.add("inactive");
+  }
+}
+```
+
+11. Created a function that updates the existing bar chart using given data, accompanied by an index number (see step ...). This function is built upon the code that generates the original chart, and thus contains code from the [original example][bar chart] by [Mike Bostock][Bostock]:
 
 ```javascript
 function updateBarChart(data, index){
@@ -359,15 +408,7 @@ var z = d3.scaleOrdinal(d3.schemeCategory10);
 ```
 Variable `z` was later deleted, because I implemented a different way of setting the fill colors (see step 13)
 
-10. Added code that select button elements in `index.html` and stored them in variables:
-
-```javascript
-var next =  document.querySelector(".next");
-var prev =  document.querySelector(".prev");
-```
-
-
-11. Globally defined subset variables:
+12. Globally defined subset variables:
 
 ```javascript
 var subset1 = [],
@@ -377,9 +418,9 @@ var subset1 = [],
     subset5 = [];
 ```
 
-12. Globally defined var `series`
+13. Globally defined var `series`
 
-13. Globally defined var `colorScheme`. In it an object is stored. This object links the key names that are used in the different subsets of data, to a color code. This can be used to set the `fill` color of the bars in a chart using the keys that are passed on in the data for that chart. See code below:
+14. Globally defined var `colorScheme`. In it an object is stored. This object links the key names that are used in the different subsets of data, to a color code. This can be used to set the `fill` color of the bars in a chart using the keys that are passed on in the data for that chart. See code below:
 
 ```javascript
 var colorScheme = {
@@ -393,7 +434,7 @@ var colorScheme = {
 };
 ```
 
-14. Added code that creates a legend. For this I used [this legend code][legend] as an example/source. The original code is listed below, along with the changes I made:
+15. Added code that creates a legend. For this I used [this legend code][legend] as an example/source. The original code is listed below, along with the changes I made:
 
  * [original code][legend]:
  ```javascript
@@ -515,7 +556,7 @@ var colorScheme = {
 
     3. This code uses `if()` statements to run different code according to the value of `index`. This is needed because there are different ways that the content for `.text()` should be called, because the data is passed on differently.
 
-15. Added an explanative text that updates along with the chart. This took a few steps that are listed below:
+16. Added an explanative text that updates along with the chart. This took a few steps that are listed below:
 
   * Created variables `headerElement` and `explanationElement` that containing code that select elements in `index.html`. These elments will end up containing the explanative text.
 
