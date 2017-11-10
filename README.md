@@ -676,16 +676,16 @@ First I had to come up with a concept. I already finished `assignment A`, and I 
 Eventually I came up with the following concept sketch.
 ![concept][concept-schets]
 
-I got to work using `Principle`. This was my first time using this tool.
+I got to work using `Principle` and `Sketch`. This was my first time using the `Principle` tool.
 
 #### Result
 The result is a prototype that shows the desired function of this concept. It is not fully functional, as not all the years are clickable.
 
-To use the prototype you need to have acces to the `Principle` tool. However, I made a video that showcases how the app should be used.
+To use the prototype you need to have acces to the `Principle` tool. However, I made a video that showcases the prototype.
 
 I also implemented an `Zero-state` and an `explanation-guide` into the concept app.
 
-Check out the result [here][opdrachtB link]
+Check out the result [HERE.][opdrachtB link]
 
 [bar chart]: https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608
 [Bostock]: https://bl.ocks.org/mbostock
