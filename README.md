@@ -2,8 +2,8 @@
 ## Description
 This project consists of two assignments: 
 
-*  Assignment A: requires a data visualisation to be built using `d3`. The visualisation must give insight in at least three types of data. 
-* Assignment B: requires an interactive data visualisation to be made. This can't contain a basic chart type.
+*  `Assignment A`: requires a data visualisation to be built using `d3`. The visualisation must give insight in at least three types of data. 
+* `Assignment B`: requires an interactive data visualisation to be made. This can't contain a basic chart type.
 
 ## Subject and research
 For these assignments I have chosen the subject of population growth and demographic developments.  I did some research so I had a good understanding of the subject I was handling. My reasearch is summed up in a reasearch case using `Evernote`. Check out my [research case][research case].
@@ -720,7 +720,7 @@ Eventually I came up with the following concept sketch.
 I got to work using `Principle` and `Sketch`. This was my first time using the `Principle` tool.
 
 ### Data
-I used data from [cbs][cbs] about the following subjects:
+I used [this data][opdracht B data] from [cbs][cbs] about the following subjects:
 * Total population
 * Births
 * Deaths
@@ -765,3 +765,4 @@ Check out the result [HERE.][opdrachtB link]
 [research case]: https://www.evernote.com/pub/laurens_booij1/onderzoekbevolkingsgroei-idproject1laurensbooij#st=p&n=3bf9a506-12dc-4885-8150-fec2004c46dd
 [concept-schets]: concept-schets.jpg
 [opdrachtB link]: https://github.com/Laurens-booij/ID-project-1/tree/master/Assignment%20B
+[opdracht B data]: http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=37296ned&D1=0,57,59-61,63-65,68&D2=0,5,10,15,20,25,30,35,40,45,50,55,60,64-66&STB=T,G1&VW=T
