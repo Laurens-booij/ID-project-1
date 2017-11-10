@@ -12,21 +12,21 @@ For these assignments I have chosen the subject of population growth and demogra
 ### Interactive barchart explaining cause population growth (Dutch)
 ![preview][preview]
 
-#### Description
+### Description
 This chart tells a story about the growth of the Dutch population between 1950 and 2015. The user can navigate trough various charts using the `next` and `previous` buttons. The chart and its accompanied text will in turn update to tell the next part of the story.
 
 The interesting thing about this chart, in my opinion, is that it transitions one chart into three different variations of a bar chart.
 
-#### Background
+### Background
 This is a bar chart that is based on a [bar chart with negative values][bar chart] by [Mike Bostock][Bostock]. I took this example and edited to make it interactive. The changes that I made to facilitate this are listed below in the `changes` section.
 
-#### Sources
+### Sources
 I used the following examples and edited them to accomplish my desired result:
 * [Bar chart with negative values][bar chart] by [Mike Bostock][Bostock].
 * [Legend][legend]
 
-#### Changes
- index.html
+### Changes
+#### index.html
 1. Added basic document structure.
 
 2. added `<head>` elment with `meta` elements in it and a `<link>` element linking to `index.css`. See code below:
@@ -70,7 +70,7 @@ I used the following examples and edited them to accomplish my desired result:
 </div>
 ```
 
-########## index.js
+#### index.js
 The changes I made are listed below, to see all code with code comments; check out the included `index.js` file.
 
 1. Removed `var data`, containing data used to create the chart from the original example. I later added my own data so this could be used instead.
@@ -586,7 +586,7 @@ var colorScheme = {
   explanationElement.textContent = explanationText[index - 1];
   ```
 
-########## index.css
+#### index.css
 I wrote some eighty lines of css, but only a few are worth explaining. These lines are listed below:
 
 1. The code below positions the elments using flexbox:
