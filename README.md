@@ -719,6 +719,33 @@ Eventually I came up with the following concept sketch.
 
 I got to work using `Principle` and `Sketch`. This was my first time using the `Principle` tool.
 
+### Data
+I used data from [cbs][cbs] about the following subjects:
+* Total population
+* Births
+* Deaths
+* Immigrants
+* Emigrants
+* Population density
+
+All data is about the Netherlands. In my concept, I wanted to show the impact of these subjects on a square kilometre of the Netherlands. Therefore, I had to use the data on `births`, `deaths`, `immigration` and `emigration` and recalculate it so i could see the impact of it on a square kilometer. I did this by taking the total number for a year, and deviding it by 33000 (total land mass of the Netherlands).
+
+The data I used is from the following years:
+* 1950
+* 1955
+* 1960
+* 1965
+* 1970
+* 1975
+* 1980
+* 1985
+* 1990
+* 1995
+* 2000
+* 2005
+* 2010
+* 2015
+
 #### Result
 The result is a prototype that shows the desired function of this concept. It is not fully functional, as not all the years are clickable.
 
