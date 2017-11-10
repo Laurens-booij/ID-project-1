@@ -713,7 +713,7 @@ Released under the GNU General Public License, version 3. © Laurens Booij
 This interactive visualisation is made using `Principle` and displays data about population density and demographic developments. It displays data from the years 1950 to 2015, in increments of 5 years. The user can spot demographic trends throughout the years by clicking trough them.
 
 ### Concept
-First I had to come up with a concept. I already finished `assignment A`, and I wanted to use the same subject. Ik had to come up with something more creative, however. 
+First I had to come up with a concept. I had already finished `assignment A`, and I wanted to use the same subject. Ik had to come up with something more creative, however. 
 
 Eventually I came up with the following concept sketch.
 ![concept][concept-schets]
