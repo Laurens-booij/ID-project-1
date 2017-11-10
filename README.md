@@ -9,7 +9,7 @@ This project consists of two assignments:
 For these assignments I have chosen the subject of population growth and demographic developments.  I did some research so I had a good understanding of the subject I was handling. My reasearch is summed up in a reasearch case using `Evernote`. Check out my [research case][research case].
 
 ## Assignment A
-### Interactive barchart explaining cause population growth (Dutch)
+### [Interactive barchart explaining cause population growth (Dutch)][git pages]
 ![preview][preview]
 
 ### Description
@@ -755,6 +755,7 @@ I also implemented an `Zero-state` and an `explanation-guide` into the concept a
 
 Check out the result [HERE.][opdrachtB link]
 
+[git pages]: https://laurens-booij.github.io/ID-project-1/
 [bar chart]: https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608
 [Bostock]: https://bl.ocks.org/mbostock
 [legend]: http://jsbin.com/isuris/1/edit?html,output
