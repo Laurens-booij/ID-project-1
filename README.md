@@ -552,9 +552,7 @@ var colorScheme = {
 
     2. Added code that gives the group containing a legend element a class. This class gets a set name of `legendGroup`, along with value of `index`.
 
-     ```
-     This code is needed because the fourth chart, which is made to look like it displays only one dataset, but actually displays two datasets. One dataset shows the positive values above the x-axis, while the other shows the negative values below the x-axis. Because of this, two legend items are created. One of which needs to be hidden, and therefore I need to be able to select it using css.
-     ```
+  This code is needed because the fourth chart, which is made to look like it displays only one dataset, but actually displays two datasets. One dataset shows the positive values above the x-axis, while the other shows the negative values below the x-axis. Because of this, two legend items are created. One of which needs to be hidden, and therefore I need to be able to select it using css.
 
     3. This code uses `if()` statements to run different code according to the value of `index`. This is needed because there are different ways that the content for `.text()` should be called, because the data is passed on differently.
 
