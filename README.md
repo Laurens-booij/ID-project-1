@@ -685,7 +685,7 @@ To use the prototype you need to have acces to the `Principle` tool. However, I 
 
 I also implemented an `Zero-state` and an `explanation-guide` into the concept app.
 
-![opdracht B][opdrachtB gif]
+Check out the result [here][opdrachtB link]
 
 [bar chart]: https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608
 [Bostock]: https://bl.ocks.org/mbostock
@@ -696,4 +696,4 @@ I also implemented an `Zero-state` and an `explanation-guide` into the concept a
 [preview-2]: preview-2.png
 [research case]: https://www.evernote.com/pub/laurens_booij1/onderzoekbevolkingsgroei-idproject1laurensbooij#st=p&n=3bf9a506-12dc-4885-8150-fec2004c46dd
 [concept-schets]: concept-schets.jpg
-[opdrachtB gif]: opdrachtB.gif
+[opdrachtB link]: 
