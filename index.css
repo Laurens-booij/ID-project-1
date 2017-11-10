@@ -1,0 +1,77 @@
+
+body {
+  height: 98vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+  background-color: #ebebeb;
+}
+
+h1 {
+  align-self: flex-start;
+  margin: 0 0 0 2em;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanation-container {
+  width: 25em;
+  margin: 0 0 0 2em;
+}
+
+.button-container {
+  margin: 2em 0 0 0;
+  width: 12em;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  transition: .5s;
+  font-size: 0.8em;
+  opacity: 0.7;
+  width: 7em;
+  padding: 1em 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+}
+
+button:hover {
+  transition: .5s;
+  opacity: 1;
+}
+
+button.inactive {
+  background-color: #bebebe;
+  opacity: 1;
+}
+button.inactive:hover {
+  background-color: #bebebe;
+  opacity: 1;
+}
+
+.tick line {
+  display: none;
+}
+
+/* hide second legend item of fourth chart*/
+.legendGroup4:nth-of-type(2) {
+  display: none;
+}
+
+.explanation-p {
+  line-height: 1.3em;
+}
