@@ -691,6 +691,6 @@ I also implemented an `Zero-state` and an `explanation-guide` into the concept a
 [cbs]:https://www.cbs.nl/en-gb
 [dataset]: http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=37296ned&D1=57,59-61,63-65&D2=0,5,10,15,20,25,30,35,40,45,50,55,60,64-66&STB=T,G1&VW=T
 [preview]: preview.png
-[preview-2]: preview.png
-[research case]: 
-[concept-schets]:
+[preview-2]: preview-2.png
+[research case]: https://www.evernote.com/pub/laurens_booij1/onderzoekbevolkingsgroei-idproject1laurensbooij#st=p&n=3bf9a506-12dc-4885-8150-fec2004c46dd
+[concept-schets]: concept-schets.jpg
