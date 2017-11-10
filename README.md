@@ -728,7 +728,7 @@ I used [this data][opdracht B data] from [cbs][cbs] about the following subjects
 * Emigrants
 * Population density
 
-All data is about the Netherlands. In my concept, I wanted to show the impact of these subjects on a square kilometre of the Netherlands. Therefore, I had to use the data on `births`, `deaths`, `immigration` and `emigration` and recalculate it so i could see the impact of it on a square kilometer. I did this by taking the total number for a year, and deviding it by 33000 (total land mass of the Netherlands).
+All data is about the Netherlands. In my concept, I wanted to show the impact of these subjects on a square kilometre of the Netherlands. Therefore, I had to use the data on `births`, `deaths`, `immigration` and `emigration` and recalculate it so i could see the impact of it on a square kilometer. I did this by taking the total number for a year, and deviding it by 33000 (roughly the total land mass of the Netherlands).
 
 The data I used is from the following years:
 * 1950
