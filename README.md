@@ -696,4 +696,4 @@ Check out the result [here][opdrachtB link]
 [preview-2]: preview-2.png
 [research case]: https://www.evernote.com/pub/laurens_booij1/onderzoekbevolkingsgroei-idproject1laurensbooij#st=p&n=3bf9a506-12dc-4885-8150-fec2004c46dd
 [concept-schets]: concept-schets.jpg
-[opdrachtB link]: 
+[opdrachtB link]: https://github.com/Laurens-booij/ID-project-1/tree/master/Assignment%20B
